@@ -104,6 +104,6 @@ app.post('/enviar', (req, res) => {
 		});
 })
 
-app.listen('8010', ()=> {
-	console.log('listening on port 8010');
+app.listen('8080', ()=> {
+	console.log('listening on port 8080');
 })
