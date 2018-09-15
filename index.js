@@ -107,3 +107,23 @@ app.post('/enviar', (req, res) => {
 app.listen('8080', ()=> {
 	console.log('listening on port 8080');
 })
+
+/*
+if (module === require.main) {
+  // [START server]
+  // Start the server
+  const server = app.listen(process.env.PORT || 8080, () => {
+    const port = server.address().port;
+    console.log(`App listening on port ${port}`);
+  });
+  // [END server]
+    // [END server]
+}
+
+module.exports = app;
+
+# [START runtime]
+runtime: nodejs8
+# [END runtime]
+
+*/
